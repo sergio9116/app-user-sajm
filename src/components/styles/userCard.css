@@ -1,0 +1,51 @@
+
+.user {
+    width: 250px ;
+    background-color: gray;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.user__name {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.user__list {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__item span:first-child {
+    color: #fff7;
+}
+
+.user__buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.user__btn:first-child {
+    background-color: rgb(236, 106, 106);
+    color: white;
+    border: 1px solid rgb(172, 69, 69);
+    font-size: 20px;
+}
+
+.user__btn:nth-child(2) {
+    background-color: white;
+    color: rgb(173, 167, 167);
+    border: 1px solid rgb(95, 87, 87);
+    font-size: 20px;
+}
